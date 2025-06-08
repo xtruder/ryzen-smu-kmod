@@ -1,0 +1,4 @@
+/results_ryzen-smu-kmod
+*.tar.gz
+*.rpm
+*.log
