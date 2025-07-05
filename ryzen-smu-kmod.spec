@@ -10,8 +10,8 @@
 %endif
 
 Name:     ryzen-smu-kmod
-Version:  0
-Release:  1%{?gitsnapinfo}%{?dist}
+Version:  0.1.6
+Release:  0%{?gitsnapinfo}%{?dist}
 Summary:  A Linux kernel driver that exposes access to the SMU
 License:  GPLv2
 URL:      https://github.com/amkillam/ryzen_smu
@@ -87,3 +87,5 @@ mv userspace/monitor_cpu %{buildroot}%{_bindir}/monitor_cpu
 %changelog
 * Sun Jun 08 2025 offlinehq
 - Initial release
+* Sun Jul 05 2025 offlinehq
+- Fix version
